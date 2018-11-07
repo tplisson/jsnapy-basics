@@ -4,12 +4,12 @@
 
 ## Documentation Structure
 
-[**1. Quick Ansible Demo**](README.md#-1.-Quick-JSNAPY-Demo)
+[**1. Quick Ansible Demo**](README.md#1.-Quick-JSNAPY-Demo)
 
-[**2. More Advanced Stuff**](README.md#-2.-More-Advanced-Stuff)
+[**2. More Advanced Stuff**](README.md#2.-More-Advanced-Stuff)
 
 
-# 1. Quick JSNAPy Demo
+#1. Quick JSNAPy Demo
 This is a short demo on the Juniper JSNAPy tool
 
 More on JSNAPy here:
@@ -17,8 +17,26 @@ More on JSNAPy here:
  - https://github.com/Juniper/jsnapy
  
 
----
-## 1.1 Start a Docker container for the Ansible environment
+JSNAPy Documentation:
+ - https://www.juniper.net/documentation/en_US/junos-snapshot1.0/information-products/pathway-pages/junos-snapshot-python.html
+ - https://www.juniper.net/documentation/en_US/junos-snapshot1.0/information-products/pathway-pages/junos-snapshot-python.pdf
+
+Day One Book on JSNAPy
+- https://www.juniper.net/us/en/training/jnbooks/day-one/automation-series/jsnapy/
+- http://forums.juniper.net/t5/Day-One-Books/Day-One-Enabling-Automated-Network-Verifications-with-JSNAPy/ba-p/302104
+
+
+Other JSNAPy resources
+ - https://github.com/Juniper/jsnapy
+ - https://pypi.python.org/pypi/jsnapy/
+ - https://www.youtube.com/watch?v=lv7lh3kwKns
+
+JSNAPy in Ansible Playbooks
+- https://www.juniper.net/documentation/en_US/junos-ansible/topics/topic-map/junos-ansible-jsnapy-using.html
+
+
+
+##1.1 Start a Docker container for the Ansible environment
 Using a Docker container greatly simplifies the environment setup and it also keeps things clean and contained
 
 ```
@@ -45,7 +63,7 @@ If you need access to some Junos devices for lab / testing purposes, you can run
 
 
 
-## 1.2 First JSNAPy script
+##1.2 First JSNAPy script
 Let's create a simple script to verify the status of the interfaces
 
 JSNAPy Configuration file in YAML format called "check_intf.yml":
@@ -91,67 +109,25 @@ jsnapy --check pre post -f check_intf.yml
 ```
 
 
-# 2. More Advanced Stuff
+#2. More Advanced Stuff
 text
 
 ```
 cli
 ```
-## 2.1 subtitle
+##2.1 subtitle
 text
 
 ```
 cli
 ```
-## 2.2 subtitle
+##2.2 subtitle
 text
 
 ```
 cli
 ```
-## 2.3 subtitle
-text
-
-```
-cli
-```
-## 2. subtitle
-text
-
-```
-cli
-```
-## 2. subtitle
-text
-
-```
-cli
-```
-## 2. subtitle
-text
-
-```
-cli
-```
-## 2. subtitle
-text
-
-```
-cli
-```
-## 2. subtitle
-text
-
-```
-cli
-```
-## 2. subtitle
-text
-
-```
-cli
-```
-## 2. subtitle
+##2.3 subtitle
 text
 
 ```
