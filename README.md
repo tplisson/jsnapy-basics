@@ -55,6 +55,9 @@ hosts:
   - device: mx1
     username : lab
     passwd: lab123
+  - device: mx2
+    username : lab
+    passwd: lab123
 tests:
   - test_intf_no_diff.yml
 ```
