@@ -45,25 +45,7 @@ If you need access to some Junos devices for lab / testing purposes, you can run
 
 
 
-## 1.2 Setup the Environment
-
-Inventory "hosts" file located in my project directory
-```ini
-[mx]
-mx1
-mx2
-```
-
-Credentials for the default Junos devices username and password can be stored under:
-- group_vars/all.yml
-```ini
----
-# Default username and password
-device_user: lab
-device_pass: lab123
-```
-
-## 1.3 First JSNAPy script
+## 1.2 First JSNAPy script
 Let's create a simple script to verify the status of the interfaces
 
 JSNAPy Configuration file in YAML format called "check_intf.yml":
